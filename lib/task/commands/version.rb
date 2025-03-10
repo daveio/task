@@ -1,5 +1,8 @@
+# frozen_string_literal: true
+
 module TaskCLI
   module Commands
+    # Version command
     class Version
       def initialize(args, options)
         @args = args
@@ -12,4 +15,3 @@ module TaskCLI
     end
   end
 end
-

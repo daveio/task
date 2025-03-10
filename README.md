@@ -19,24 +19,27 @@ A command-line interface application built with Ruby and Commander that helps yo
 ### Steps
 
 1. Clone this repository:
-   ```
+
+   ```sh
    git clone [repository-url]
    cd task-cli
    ```
 
 2. Install dependencies:
-   ```
+
+   ```sh
    bundle install
    ```
 
 3. Make the CLI executable available:
-   ```
+
+   ```sh
    # Option 1: Add the bin directory to your PATH
    export PATH="$PATH:$(pwd)/bin"
-   
+
    # Option 2: Create a symlink to a directory in your PATH
    ln -s "$(pwd)/bin/task" /usr/local/bin/task
-   
+
    # Option 3: Use it with the full path
    ./bin/task
    ```
@@ -47,31 +50,31 @@ The Task CLI provides several commands to help you manage tasks:
 
 ### Get help
 
-```
+```sh
 task help
 ```
 
 ### Display version information
 
-```
+```sh
 task version
 ```
 
 ### Learn more about the application
 
-```
+```sh
 task about
 ```
 
 ### Configure the application
 
-```
+```sh
 task setup
 ```
 
 ### Create a new task
 
-```
+```sh
 task new "Task description" --priority high --due "2023-12-31"
 ```
 
@@ -81,7 +84,7 @@ task new "Task description" --priority high --due "2023-12-31"
 
 The `about` command provides information about the Task CLI application, its purpose, and how it can help you manage tasks.
 
-```
+```sh
 task about
 ```
 
@@ -89,7 +92,7 @@ task about
 
 The `setup` command guides you through the process of configuring the Task CLI application.
 
-```
+```sh
 task setup
 ```
 
@@ -97,11 +100,12 @@ task setup
 
 The `new` command allows you to create a new task with various options.
 
-```
+```sh
 task new "Task description" [options]
 ```
 
 Options:
+
 - `--priority VALUE` - Set the priority (high, medium, low)
 - `--due DATE` - Set the due date
 - `--tags LIST` - Add comma-separated tags
@@ -110,7 +114,7 @@ Options:
 
 The `version` command displays the current version of the Task CLI application.
 
-```
+```sh
 task version
 ```
 
@@ -130,4 +134,3 @@ task version
 ## Contributing
 
 [Contribution guidelines]
-

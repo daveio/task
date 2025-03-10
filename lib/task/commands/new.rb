@@ -1,5 +1,8 @@
+# frozen_string_literal: true
+
 module TaskCLI
   module Commands
+    # New command
     class New
       def initialize(args, options)
         @args = args
@@ -9,11 +12,10 @@ module TaskCLI
       def run
         name = @args.first || 'untitled'
         type = @options.type || 'default'
-        
+
         puts "Creating new #{type} item: #{name}"
         # Add creation logic here
       end
     end
   end
 end
-
