@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'abbrev'                          # Required for highline/commander in Ruby 3.4+
-gem 'colorize', '~> 0.8'              # Adds colorization to terminal output
+gem 'colorize', '~> 1.1'              # Adds colorization to terminal output
 gem 'commander', '~> 4.6'             # Command-line interface framework
 gem 'pastel', '~> 0.8'                # Terminal output styling
 gem 'tty-box', '~> 0.7.0'             # Terminal output styling
