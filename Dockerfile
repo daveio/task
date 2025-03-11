@@ -4,14 +4,15 @@ WORKDIR /app
 
 COPY . /app
 
-RUN useradd -m -s /bin/bash task &&chown -R task:task /app
+RUN adduser -D -s /bin/false task && chown -R task:task /app
 
 USER task
 
-RUN gem install bundler && bundle install
+RUN gem install bundler && \
+    bundle config set --local without 'development' && \
+    bundle install
 
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
   CMD ruby -e "exit 0" || exit 1
 
-ENTRYPOINT ["ruby"]
-CMD ["bin/trunk"]
+ENTRYPOINT ["ruby", "bin/task"]
