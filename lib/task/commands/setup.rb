@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module TaskCLI
+module Task
   module Commands
     # Setup command
     class Setup

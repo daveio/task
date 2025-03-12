@@ -2,7 +2,6 @@
 
 require 'commander'
 require_relative 'task/version'
-require_relative 'task/commands/about'
 require_relative 'task/commands/setup'
 require_relative 'task/commands/new'
 require_relative 'task/commands/version'

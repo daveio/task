@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module TaskCLI
+module Task
   module Commands
     # Version command
     class Version
@@ -10,7 +10,7 @@ module TaskCLI
       end
 
       def run
-        puts "task version #{TaskCLI::VERSION}"
+        puts "Task #{Task::VERSION}"
       end
     end
   end

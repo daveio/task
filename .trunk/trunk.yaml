@@ -14,12 +14,12 @@ runtimes:
   enabled:
     - node@18.20.5
     - python@3.10.8
-    - ruby@3.1.4
+    # - ruby@3.1.4
 # This is the section where you manage your linters. (https://docs.trunk.io/check/configuration)
 lint:
   enabled:
     - actionlint@1.7.7
-    - rubocop@1.39.0
+    - rubocop
     - semgrep@1.111.0
     - checkov@3.2.382
     - git-diff-check
