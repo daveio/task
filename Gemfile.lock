@@ -67,7 +67,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
     rspec-support (3.13.2)
-    rubocop (1.73.2)
+    rubocop (1.74.0)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
@@ -101,6 +101,7 @@ GEM
       sorbet-static (= 0.5.11930)
     sorbet-runtime (0.5.11930)
     sorbet-static (0.5.11930-universal-darwin)
+    sorbet-static (0.5.11930-x86_64-linux)
     sorbet-static-and-runtime (0.5.11930)
       sorbet (= 0.5.11930)
       sorbet-runtime (= 0.5.11930)
@@ -190,6 +191,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-24
+  x86_64-linux
 
 DEPENDENCIES
   abbrev (~> 0.1.2)
@@ -202,7 +204,7 @@ DEPENDENCIES
   pry-stack_explorer (~> 0.6.1)
   rake (~> 13.2.1)
   rspec (~> 3.13.0)
-  rubocop (~> 1.73.2)
+  rubocop (~> 1.74.0)
   rubocop-performance (~> 1.24)
   rubocop-rake (~> 0.7.1)
   rubocop-rspec (~> 3.5)
