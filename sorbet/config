@@ -1,4 +1,8 @@
 --dir
 .
+--ignore=.github/
+--ignore=.history/
+--ignore=.trunk/
+--ignore=.vscode/
 --ignore=tmp/
 --ignore=vendor/

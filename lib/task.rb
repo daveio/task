@@ -1,4 +1,4 @@
-# typed: false
+# typed: true
 # frozen_string_literal: true
 
 require 'commander'
@@ -9,10 +9,10 @@ require_relative 'task/commands/version'
 
 # Task is a module that provides a command-line interface for managing tasks
 module Task
-  extend T::Sig
   # Task CLI
   class CLI
     include Commander::Methods
+    extend T::Sig
 
     sig { void }
     def self.start
@@ -27,7 +27,6 @@ module Task
       program :version, Task::VERSION
       program :description, 'A Ruby CLI application'
 
-      define_about_command
       define_setup_command
       define_new_command
       define_version_command
@@ -37,18 +36,6 @@ module Task
     end
 
     private
-
-    # Defines the about command
-    sig { void }
-    def define_about_command
-      command :about do |c|
-        c.syntax = 'task about'
-        c.description = 'Shows information about this CLI'
-        c.action do |args, options|
-          Commands::About.new(args, options).run
-        end
-      end
-    end
 
     # Defines the setup command
     sig { void }
