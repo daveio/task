@@ -1,6 +1,7 @@
 # typed: true
 # frozen_string_literal: true
 
+require 'sorbet-runtime'
 require 'commander'
 require_relative 'task/version'
 require_relative 'task/commands/setup'

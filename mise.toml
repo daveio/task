@@ -7,5 +7,5 @@ env_file = '.env'
 [tools]
 ruby = '3.4.2'
 
-# [tasks]
-# build = ["bundle install", "bundle exec rake build"]
+[tasks]
+start = ["bin/task"]

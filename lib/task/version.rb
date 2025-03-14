@@ -1,6 +1,8 @@
 # typed: true
 # frozen_string_literal: true
 
+require 'sorbet-runtime'
+
 # Version information
 module Task
   extend T::Sig
