@@ -6,6 +6,7 @@ gem 'abbrev', '~> 0.1.2'                # Required for highline/commander in Rub
 gem 'colorize', '~> 1.1.0'              # Adds colorization to terminal output
 gem 'commander', '~> 5.0.0'             # Command-line interface framework
 gem 'pastel', '~> 0.8.0'                # Terminal output styling
+gem 'sorbet-static-and-runtime', '~> 0.5.11930' # Type checking
 gem 'tty-box', '~> 0.7.0'               # Terminal output styling
 gem 'tty-color', '~> 0.6.0'             # Terminal output styling
 gem 'tty-command', '~> 0.10.1'          # Terminal output styling
@@ -36,4 +37,10 @@ group :development do
   gem 'rake', '~> 13.2.1'               # Task runner
   gem 'rspec', '~> 3.13.0'              # Testing framework
   gem 'rubocop', '~> 1.73.2'            # Code style checking
+  gem 'rubocop-performance', '~> 1.24'  # Code style checking
+  gem 'rubocop-rake', '~> 0.7.1'        # Code style checking
+  gem 'rubocop-rspec', '~> 3.5'         # Code style checking
+  gem 'rubocop-sorbet', '~> 0.9.0'      # Code style checking
+  gem 'rubocop-thread_safety', '~> 0.7.2' # Code style checking
+  gem 'tapioca', '~> 0.16.11', require: false # Type checking
 end

@@ -1,3 +1,4 @@
+# typed: false
 # frozen_string_literal: true
 
 require 'commander'
@@ -15,11 +16,14 @@ module Task
       new.run
     end
 
+    # This method sets up and runs the command-line interface (CLI) for the application.
+    # It defines the program's name, version, and description, as well as the available commands.
     def run
       program :name, 'task'
       program :version, Task::VERSION
       program :description, 'A Ruby CLI application'
 
+      # Command to display information about the CLI application.
       command :about do |c|
         c.syntax = 'task about'
         c.description = 'Shows information about this CLI'
@@ -28,6 +32,7 @@ module Task
         end
       end
 
+      # Command to set up the CLI environment.
       command :setup do |c|
         c.syntax = 'task setup'
         c.description = 'Setup the CLI environment'
@@ -36,6 +41,7 @@ module Task
         end
       end
 
+      # Command to create a new item with an optional name and type.
       command :new do |c|
         c.syntax = 'task new [name]'
         c.description = 'Create a new item'
@@ -45,6 +51,7 @@ module Task
         end
       end
 
+      # Command to display the current version of the application.
       command :version do |c|
         c.syntax = 'task version'
         c.description = 'Display the version'
@@ -53,6 +60,7 @@ module Task
         end
       end
 
+      # Executes the command-line interface.
       run!
     end
   end

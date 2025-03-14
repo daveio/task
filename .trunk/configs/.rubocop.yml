@@ -1,1 +1,8 @@
 inherit_from: .rubocop_todo.yml
+plugins:
+  - rubocop-sorbet
+  - rubocop-rspec
+  - rubocop-rake
+  - rubocop-performance
+  - rubocop-thread_safety
+  - rubocop-performance
