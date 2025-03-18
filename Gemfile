@@ -6,7 +6,7 @@ gem 'abbrev', '~> 0.1.2'                        # Required for highline/commande
 gem 'colorize', '~> 1.1.0'                      # Adds colorization to terminal output
 gem 'commander', '~> 5.0.0'                     # Command-line interface framework
 gem 'pastel', '~> 0.8.0'                        # Terminal output styling
-gem 'sorbet-static-and-runtime', '~> 0.5.11934' # Type checking
+gem 'sorbet-static-and-runtime', '~> 0.5.11942' # Type checking
 gem 'tty-box', '~> 0.7.0'                       # Terminal output styling
 gem 'tty-color', '~> 0.6.0'                     # Terminal output styling
 gem 'tty-command', '~> 0.10.1'                  # Terminal output styling
