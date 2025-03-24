@@ -8,7 +8,7 @@ RUN adduser -D -s /bin/false task && chown -R task:task /app
 
 USER task
 
-RUN gem install bundler && \
+RUN gem install bundler:2.6.6 && \
     bundle config set --local without 'development' && \
     bundle install
 
