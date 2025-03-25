@@ -25,14 +25,14 @@ lint:
     - taplo@0.9.3
     - actionlint@1.7.7
     - rubocop
-    - semgrep@1.111.0
-    - checkov@3.2.384
+    - semgrep@1.114.0
+    - checkov@3.2.392
     - git-diff-check
     - markdownlint@0.44.0
-    - osv-scanner@1.9.2
+    - osv-scanner@2.0.0
     - prettier@3.5.3
-    - trufflehog@3.88.16
-    - yamllint@1.36.0
+    - trufflehog@3.88.18
+    - yamllint@1.37.0
 actions:
   enabled:
     - git-lfs
