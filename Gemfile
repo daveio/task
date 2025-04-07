@@ -37,7 +37,7 @@ group :development do
   gem 'rake', '~> 13.2.1'                       # Task runner
   gem 'rspec', '~> 3.13.0'                      # Testing framework
   gem 'rubocop', '~> 1.75.2'                    # Code style checking
-  gem 'rubocop-performance', '~> 1.24'          # Code style checking
+  gem 'rubocop-performance', '~> 1.25'          # Code style checking
   gem 'rubocop-rake', '~> 0.7.1'                # Code style checking
   gem 'rubocop-rspec', '~> 3.5'                 # Code style checking
   gem 'rubocop-sorbet', '~> 0.9.0'              # Code style checking
