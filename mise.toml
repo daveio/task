@@ -1,11 +1,11 @@
 [env]
-TASK_MISE_ACTIVE = "true"
+TASK_MISE_ACTIVE = 'true'
 
 [settings]
 env_file = '.env'
 
 [tools]
-ruby = '3.4.2'
+ruby = '3.4.3'
 
 [tasks]
-start = ["bin/task"]
+start = ['bin/task']
