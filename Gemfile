@@ -39,7 +39,7 @@ group :development do
   gem 'rubocop', '~> 1.75.2'                    # Code style checking
   gem 'rubocop-performance', '~> 1.25'          # Code style checking
   gem 'rubocop-rake', '~> 0.7.1'                # Code style checking
-  gem 'rubocop-rspec', '~> 3.5'                 # Code style checking
+  gem 'rubocop-rspec', '~> 3.6'                 # Code style checking
   gem 'rubocop-sorbet', '~> 0.10.0'             # Code style checking
   gem 'rubocop-thread_safety', '~> 0.7.2'       # Code style checking
   gem 'tapioca', '~> 0.16.11', require: false   # Type checking
