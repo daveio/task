@@ -36,7 +36,7 @@ group :development do
   gem 'pry-stack_explorer', '~> 0.6.1'          # Debugging
   gem 'rake', '~> 13.2.1'                       # Task runner
   gem 'rspec', '~> 3.13.0'                      # Testing framework
-  gem 'rubocop', '~> 1.75.2'                    # Code style checking
+  gem 'rubocop', '~> 1.75.3'                    # Code style checking
   gem 'rubocop-performance', '~> 1.25'          # Code style checking
   gem 'rubocop-rake', '~> 0.7.1'                # Code style checking
   gem 'rubocop-rspec', '~> 3.6'                 # Code style checking
