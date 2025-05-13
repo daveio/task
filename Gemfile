@@ -42,6 +42,6 @@ group :development do
   gem 'rubocop-rspec', '~> 3.6'                 # Code style checking
   gem 'rubocop-sorbet', '~> 0.10.0'             # Code style checking
   gem 'rubocop-thread_safety', '~> 0.7.2'       # Code style checking
-  gem 'solargraph', '~> 0.54.2'                 # Code style checking
+  gem 'solargraph', '~> 0.54.3'                 # Code style checking
   gem 'tapioca', '~> 0.16.11', require: false   # Type checking
 end
