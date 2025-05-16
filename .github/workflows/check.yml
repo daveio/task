@@ -29,7 +29,7 @@ jobs:
       - name: install-dependencies
         run: bundle install
       - name: check
-        uses: trunk-io/trunk-action@v1.2.2
+        uses: trunk-io/trunk-action@v1.2.3
   devskim:
     runs-on: ubuntu-latest
     steps:
