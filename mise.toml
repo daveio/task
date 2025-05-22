@@ -5,7 +5,7 @@ TASK_MISE_ACTIVE = 'true'
 env_file = '.env'
 
 [tools]
-ruby = { version = '3.4.3' }
+ruby = { version = '3.4.4' }
 
 [tasks]
 start = ['bin/task']
