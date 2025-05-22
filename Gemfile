@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-ruby '3.4.3'
+ruby '3.4.4'
 
 gem 'abbrev'                    # Required for highline/commander in Ruby 3.4+
 gem 'colorize'                  # Adds colorization to terminal output
